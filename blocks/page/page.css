@@ -1,3 +1,12 @@
+* {
+    outline: 1px red solid;
+}
+
 .page {
     font-family: 'Inter', sans-serif;
+    background: #2A2C2F;
+    color: #FFFFFF;
+    max-width: 1280px;
+    margin: 0 auto;
+    
   }

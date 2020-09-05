@@ -1,0 +1,9 @@
+@import url(/blocks/photo-grid/__item/photo-grid__item.css);
+
+.photo-grid {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fill, 284px);
+    
+    gap: 16px;
+}

@@ -1,0 +1,15 @@
+.lead__subtitle {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.2;
+    /* or 120% */
+    
+    text-align: center;
+    width: 640px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+}

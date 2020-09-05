@@ -1,0 +1,17 @@
+.place__webcite {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 0.2em;
+    
+    color: #AAAAAA;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    
+}
