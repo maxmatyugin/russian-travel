@@ -1,5 +1,4 @@
 .header__links {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
 }

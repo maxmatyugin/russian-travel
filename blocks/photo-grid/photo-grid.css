@@ -2,11 +2,7 @@
 
 .photo-grid {
     display: grid;
-    
-    grid-template-columns: repeat(auto-fill, 284px);
-    
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 16px;
     margin-top: 92px;
-    margin-left: 48px;
-    margin-right: 48px;
 }

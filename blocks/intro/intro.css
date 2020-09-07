@@ -4,6 +4,8 @@
 @import url(./__list/_text/intro__list_text.css);
 
 .intro {
-    width: 60%;
-    margin-left: 148px;
+    max-width: 690px;
+    margin-left: 11.5%;
+    margin-right: auto;
 }
+
