@@ -1,11 +1,14 @@
 .lead__title {
     display: flex;
     justify-content: center;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 1.04;
-    /* or 104% */
+    font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+/* or 104% */
+
+text-align: center;
     width: 720px;
     height: 200px;
     margin-left: auto;
