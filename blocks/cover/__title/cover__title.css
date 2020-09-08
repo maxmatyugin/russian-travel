@@ -12,3 +12,10 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 740px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 238px;
+    }
+}

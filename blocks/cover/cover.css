@@ -1,7 +1,6 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__overlay/cover__overlay.css);
-
+@import url(./__overlay/cover__link.css);
 .cover {
     position: relative;
     display: flex;
@@ -14,3 +13,40 @@
     padding: 20% 0;
 }
 
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+}
+
+.cover:hover::before {
+    transition: opacity 0.3s;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        left: -48px;
+        width: calc(100% + 96px);
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .cover {
+        left: -24px;
+        width: calc(100% + 48px);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cover {
+        left: -16px;
+        width: calc(100% + 32px);
+    }
+}

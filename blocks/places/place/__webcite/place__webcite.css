@@ -1,16 +1,14 @@
 .place__webcite {
     align-self: end;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    
     font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height, or 122% */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
 
-
+@media screen and (max-width: 735px) {
+    .place__webcite {
+        display: none;
+    }
 }

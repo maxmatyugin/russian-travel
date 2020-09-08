@@ -1,14 +1,25 @@
 .place {
-   
-
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, max-content));
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto); */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px 48px;
-    
     margin: 0;
     padding: 0;
-    margin: 92px 11% 80px;
-    
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 80px;
+}
+
+.place:first-child {
+    margin-top: 92px;
+}
+
+.place:last-child {
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
