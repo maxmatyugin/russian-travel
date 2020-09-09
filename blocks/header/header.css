@@ -1,8 +1,23 @@
-@import url(../../blocks/header/__logo/header__logo.css);
-@import url(../../blocks/header/__links/header__links.css);
-@import url(../../blocks/header/__link/header__link.css);
-@import url(../../blocks/header/__link/_enabled/header__link_enabled.css);
+@import url(./__logo/header__logo.css);
+@import url(./__links/header__links.css);
+@import url(./__link/header__link.css);
+@import url(./__link/_enabled/header__link_enabled.css);
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 28px 48px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .header {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
 }

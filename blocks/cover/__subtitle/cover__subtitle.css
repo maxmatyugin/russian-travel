@@ -8,12 +8,15 @@
     line-height: 22px;
     text-align: center;
     z-index: 1;
+    color: #FFFFFF;
 }
 
-@media screen and (max-width: 740px) {
+
+@media screen and (max-width: 632px) {
     .cover__subtitle {
+        max-width: 288px;
         font-size: 14px;
         line-height: 16px;
-        max-width: 238px;
     }
 }
+

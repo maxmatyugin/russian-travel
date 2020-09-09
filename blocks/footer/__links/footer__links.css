@@ -1,12 +1,3 @@
 .footer__links {
-    display: flex;
-    margin: 0;
-    align-items: center;
-}
-
-@media screen and (max-width: 740px) {
-    .footer__links {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+    
 }
