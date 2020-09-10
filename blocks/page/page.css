@@ -1,3 +1,7 @@
+
+* {
+    outline: solid 1px red;
+}
 .page {
     font-family: 'Inter', ‘Arial’, sans-serif;
     background: #2A2C2F;
@@ -7,3 +11,4 @@
     box-sizing: border-box;
     margin: 0 auto; 
 }
+

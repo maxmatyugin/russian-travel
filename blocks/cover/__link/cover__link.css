@@ -6,9 +6,10 @@
     justify-content: center;
     align-items: center;
     background-image: url(../../../images/cover-trains.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15% 0;
+    padding: 19% 0;
     margin-left: 48px;
     margin-right: 48px;
 }
@@ -34,5 +35,17 @@
     .cover__link {
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        padding: 15% 0;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .cover__link {
+        padding: 8% 0;
     }
 }
